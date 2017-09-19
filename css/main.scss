@@ -1,0 +1,54 @@
+---
+# Main SASS manifest
+---
+// Greyscale
+$grey:          #6d6f71;
+$grey-dark:     #333;
+$grey-light:    #ccc;
+$grey-lighter:  #efefef;
+$grey-lightest: #f9f9f9;
+$grey-header:   #eee;
+
+$color-white:   white;
+$color-white-rgba:   rgba($color-white, 0.9);
+
+// Theme colors
+$color-Darkgreen: #00351a;
+$color-green:     #00a651;
+$color-grey:      #6d6f71;
+$color-blue:      #25aae1;
+$color-teal:      #65aaa4;
+$color-blue-rgba: rgba($color-blue, 0.9);
+$color-gold:      #f8961d;
+$color-red:       #e82529;
+$color-purple:    #815ba6;
+$color-pink:      #d43a76;
+$color-orange:    #e48c25;
+
+$bootstrap-green: #5cb85c;
+$bootstrap-warning: #ec971f;
+
+// Social colors
+$twitter:    #00aced;
+$facebook:   #3b5998;
+$googleplus: #dd4b39;
+$pinterest:  #cb2027;
+$linkedin:   #007bb6;
+$youtube:    #bb0000;
+$vimeo:      #aad450;
+$instagram:  #517fa4;
+
+// Fonts
+$font--family: 'Open sans', sans-serif !default;
+$font--family--condensed: 'Open Sans Condensed', sans-serif;
+
+
+/// Load SASS files
+
+@charset "utf-8";
+
+// Import Font Awesome here
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css");
+
+//Load layout
+@import "layout";
